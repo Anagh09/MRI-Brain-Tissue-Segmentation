@@ -139,7 +139,7 @@ Accuracy 0–5: accuracy across the complete volume
 Accuracy 1–5: accuracy only where the ground-truth label is greater than zero
 
 Foreground metrics are particularly useful because the large background region can otherwise inflate overall accuracy.
-
+```text
 Results
 Method	Mean Dice 0–5	Mean Dice 1–5	Accuracy 0–5	Accuracy 1–5
 Standard 2D K-means	0.680	0.623	78.93%	71.06%
@@ -152,6 +152,8 @@ Standard 2D K-means	0.9649	0.2922	0.7518	0.3383	0.8130	0.9195
 Multi-Otsu 2D	0.9649	0.2750	0.7509	0.3860	0.8271	0.9428
 3D volume K-means	0.9626	0.2892	0.7389	0.3938	0.8358	0.9410
 Extended 2D K-means	0.9649	0.4697	0.8253	0.5530	0.8042	0.9146
+```
+
 Findings
 
 The extended 2D K-means method achieved the best overall result, with a mean foreground Dice score of 0.713 and foreground accuracy of 75.53%.
@@ -163,12 +165,13 @@ The 3D method slightly outperformed standard K-means and Multi-Otsu. Processing 
 However, the 3D method remained intensity-only. It therefore could not match the performance of extended K-means, which used both intensity and edge information.
 
 Repository Structure
+```text
 MRI-Brain-Tissue-Segmentation/
 ├── README.md
 ├── MRI Brain Tissue Segmentation.ipynb
 ├── Report.pdf
 └── Brain-1.mat
-
+```
 The dataset should only be included in the public repository when redistribution is permitted.
 
 Installation
