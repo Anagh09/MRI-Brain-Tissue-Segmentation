@@ -12,7 +12,6 @@ The supplied MRI volume has the shape:
 
 ```text
 362 × 434 × 10
-```
 
 Each voxel belongs to one of six labels:
 
@@ -23,7 +22,7 @@ Label	Region
 3	Cerebrospinal fluid
 4	Grey matter
 5	White matter
-
+```
 The project investigates whether incorporating image-gradient information or spatial information across neighbouring slices improves segmentation performance over intensity-only methods.
 
 Methods
