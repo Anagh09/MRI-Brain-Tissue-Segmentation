@@ -12,6 +12,7 @@ The supplied MRI volume has the shape:
 
 ```text
 362 × 434 × 10
+```
 
 Each voxel belongs to one of six labels:
 
